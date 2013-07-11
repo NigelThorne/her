@@ -3,9 +3,9 @@ $:.push File.expand_path("../lib", __FILE__)
 require "her/version"
 
 Gem::Specification.new do |s|
-  s.name        = "her"
+  s.name        = "her2"
   s.version     = Her::VERSION
-  s.authors     = ["Rémi Prévost"]
+  s.authors     = ["Rémi Prévost, Nigel Thorne"]
   s.email       = ["remi@exomel.com"]
   s.homepage    = "http://her-rb.org"
   s.license     = "MIT"
@@ -26,4 +26,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "activesupport", ">= 3.0.0"
   s.add_runtime_dependency "faraday", "~> 0.8"
   s.add_runtime_dependency "multi_json", "~> 1.7"
+  s.add_runtime_dependency "nokogiri"
+  s.add_runtime_dependency "nori"
 end

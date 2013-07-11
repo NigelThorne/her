@@ -12,6 +12,8 @@ module Her
 
       # @private
       def apply_to(attributes)
+        puts "---" + @params.inspect
+        puts "---" + attributes.inspect
         @params.merge(attributes)
       end
 

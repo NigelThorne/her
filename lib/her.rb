@@ -5,6 +5,7 @@ require "faraday"
 require "active_support"
 require "active_support/inflector"
 require "active_support/core_ext/hash"
+require "nori"
 
 require "her/model"
 require "her/api"
